@@ -1,0 +1,99 @@
+body{
+    background-color: white;
+    margin: 0px;
+}
+.frame{
+    background-color: white;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 400px;
+}
+.mainbar{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    border-bottom: dotted;
+    border-width: 1px;
+    border-color:gray;
+    height: 120px;
+    vertical-align: middle;
+    padding: 0px;
+}
+.profileimg{
+    width: 1380px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    border-bottom: solid;
+    border-color: rgb(236, 230, 230);
+    border-width: 3px;
+}
+.first-mid{
+    width: 1215px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.first-mid > div img{
+    width: 450px;
+    height: 490px;
+    border-radius: 50%;
+    border: solid;
+    border-color: rgb(177, 177, 177);
+    margin-right: 100px;
+}
+.first-mid li{
+    font-size: 40px;
+    padding-left: 40px;
+    margin: 15px;
+    font-family: 'Gowun Dodum',sans-serif;
+}
+.second-mid{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.second-mid img{
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+}
+.enfp{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.nametag{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Lobster';
+}
+.nametag h2{
+    width: 430px;
+    height: 20px;
+    text-align: center;
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+.enfp p{
+    margin-left: 30px;
+    line-height: 60px;
+}
+.logo img{
+    width: 600px;
+    height: 260px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+.life img{
+    width: 460px;
+    height: 720px;
+    margin: 20px;
+}
