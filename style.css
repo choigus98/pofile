@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: rgb(208, 197, 197);
     margin: 0px;
 }
 .frame{
@@ -60,6 +60,9 @@ body{
     height: 400px;
     margin: 15px;
 }
+.second-mid :hover{
+    opacity: 80%;
+}
 .enfp{
     display: flex;
     justify-content: center;
@@ -96,4 +99,5 @@ body{
     width: 460px;
     height: 720px;
     margin: 20px;
+    
 }
